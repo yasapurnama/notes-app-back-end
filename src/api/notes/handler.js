@@ -119,7 +119,7 @@ class NotesHandler {
     }
   }
 
-  async deleteNoteByIdHandler(request) {
+  async deleteNoteByIdHandler(request, h) {
     try {
       const { id } = request.params;
 
